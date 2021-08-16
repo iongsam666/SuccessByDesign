@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Teko", sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #3475ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.toggle {
+  position: relative;
+  width: 36px;
+  height: 28px;
+  background: url(../img/toggle.png);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.banner .content {
+  position: relative;
+  max-width: 750px;
+  text-align: center;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+}
+
+.banner .content h2 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 3 px;
+}
+
+.banner .content p {
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+/* About */
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.about .contentBx {
+  background: #162c3b;
+  padding: 100px;
+  width: 50%;
+}
+
+.heading {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about .contentBx p {
+  font-weight: 100;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.about .imgBx {
+  background: url(../img/window.jpg);
+  background-size: cover;
+  width: 50%;
+  background-position: center;
+}
+
+/* Services */
+
+.services {
+  background: #12222d;
+  padding: 100px;
+  text-align: center;
+}
+
+.services p {
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.services .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.services .container .serviceBx {
+  position: relative;
+  background: #fff;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.services .container .serviceBx img {
+  max-width: 200px;
+}
+
+.services .container .serviceBx h2 {
+  font-size: 2rem;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+
+/* Technology */
+.techology {
+  padding: 100px;
+  padding-top: 300px;
+  margin-top: -300px;
+  background: #3f8ffc;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.techology .contentBx {
+  max-width: 800px;
+}
+
+.techology .contentBx .heading {
+}
+
+.techology .contentBx p {
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.techology .imgBx {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.techology .imgBx img {
+  max-width: 100%;
+}
+
+/* Client */
+.client {
+  padding: 100px;
+  text-align: center;
+  background: #162c3b;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.client .imgBx {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.client .imgBx img {
+  width: 200px;
+  margin: 20px;
+  opacity: 0.25;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.client .imgBx img:hover {
+  opacity: 1;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 100px;
+  text-align: center;
+  background: #12222d;
+  position: relative;
+}
+
+.testimonials .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.testimonials .container .contentBx {
+  background: #fff;
+  padding: 50px 60px;
+  width: 550px;
+  min-height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .container .contentBx .text {
+  color: #000;
+  font-style: italic;
+}
+
+.testimonials .container .contentBx h3 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: end;
+}
+
+/* Contact */
+
+.contact {
+  padding: 100px;
+  background: #162c3b;
+  text-align: center;
+}
+
+.imgBx2 {
+  background: url(../img/bg2.jpg);
+  background-size: cover;
+  width: 50%;
+  background-position: center;
+}
+
+.redbg {
+  background: url(../img/red.jpg) !important;
+  background-size: cover;
+  width: 50%;
+  background-position: center;
+}
+
+.form {
+  width: 100%;
+}
+
+.inputBx {
+  margin-bottom: 40px;
+}
+
+.inputBx input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 0;
+  border-bottom: 2px solid #fff;
+  font-family: "Teko", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+}
+
+.inputBx input::placeholder {
+  color: #fff;
+}
+
+.inputBx textarea {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 400;
+  min-height: 150px;
+  padding: 10px 0;
+  border-bottom: 2px solid #fff;
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.inputBx textarea::placeholder {
+  color: #fff;
+}
+
+.inputBx input[type="submit"] {
+  width: 150px;
+  background: #fff;
+  color: red;
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.footer {
+  padding: 20px 100px;
+  text-align: center;
+  background: #162c3b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer ul li a img {
+  filter: invert(1);
+  max-width: 20px;
+}
